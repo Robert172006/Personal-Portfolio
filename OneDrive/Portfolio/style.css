@@ -97,7 +97,6 @@ nav ul li a:hover{
 
 .hero-image img{
     width: 350px;
-    border-radius: 50%;
     border: 5px solid #4da6ff;
     animation: float 3s ease-in-out infinite;
     box-shadow: 0 0 30px #4da6ff;
