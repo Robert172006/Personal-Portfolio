@@ -233,15 +233,48 @@ nav ul li a:hover{
     margin-bottom: 30px;
 }
 
+/* container becomes horizontal */
 .contact-container{
     background: #0d1326;
     padding: 40px;
     border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap; /* responsive */
 }
 
-.contact-container p{
-    margin: 15px 0;
-    font-size: 18px;
+/* each contact item */
+.contact-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    padding: 20px;
+    border-radius: 15px;
+
+    background: #111a33;
+    color: white;
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+/* icons */
+.contact-item i{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #4da6ff;
+}
+
+/* hover effect */
+.contact-item:hover{
+    transform: translateY(-8px);
+    background: #1a2750;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
 }
 
 /* FOOTER */
